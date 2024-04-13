@@ -36,6 +36,7 @@ public class TaskTest {
         Task otherTask = new Task("Brush the cat");
         Assertions.assertEquals(2, Task.getAll().size());
     }
+    
 
     @Test
     public void AllTasksContainsAllTasks_true() throws Exception {
